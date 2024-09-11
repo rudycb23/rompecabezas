@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RompeCabezas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-danger">
+    <div class="container text-center bg-info my-5 border border-dark rounded">
+        <h1 class="py-4">Juego de Rompe Cabezas</h1>
+       <div><p>Puntaje: </p> <div id="score" > </div></div>
+        <div class="py-4 row">
+            <div class="col-12 col-md-5">
+                <div id="arregloPiezas" class="py-2 display-4">
+                </div>
+            </div>
+            <div class="py-2 col-12 col-md-7">
+                <div id="board" class="board mx-auto row display-4"></div>
+            </div>
+            <div class="col-12 px-4 py-3 mx-2 text-left">
+                <button type="button" class="btn btn-light" onclick="location.reload()">Empezar de nuevo</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="js/rompeCabezas.js"></script>
+
+</body>
+
+</html>
